@@ -30,7 +30,7 @@ namespace CITS_IE_Addon
             InitializeComponent();
             this.MinSize = new System.Drawing.Size(624, 24);
             Helper.getHelper().contextMenu = CustomContextMenu.getContextMenu();
-            Logger.Init();
+            //Logger.Init();
             setVersion();
         }
 
